@@ -1,0 +1,182 @@
+<!DOCTYPE HTML>
+<html>
+<head lang="en">
+    <!--Author: Ibrahim Ahmed, 000880591-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy and Leslie's Apartment</title>
+    <link rel="stylesheet" href="apartment-layout.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+</head>
+<body>
+    <header>
+        <h1>Sandy and Leslie's Apartment</h1>
+        <div class="image-map">
+            <p class="header-text">
+                Click a room for a detailed view
+            </p>
+            <img src="images/apartmentfloorplan.jpg" alt="Apartment Floor Plan. Birdeye view" title="Apartment Floorplan" usemap="#image-map">
+
+            <map name="image-map">
+                <area shape="default" href="index.html" alt="Apartment" title="Apartment Floorplan"/>
+                <area alt="Bedroom 1" title="Bedroom 1" href="bedroom.html" coords="176,268,32,111" shape="rect">
+                <area alt="Living Room" title="Living Room" href="livingroom.html" coords="197,115,337,283" shape="0">
+                <area alt="Kitchen" title="Kitchen" href="kitchen.html" coords="191,297,287,376" shape="0">
+                <area alt="Dining Room" title="Dining Room" href="dining.html" coords="345,341,49" shape="circle">
+                <area alt="Bedroom 2" title="Bedroom 2" href="bedroom.html" coords="495,307,577,310,571,240,561,105,388,100,403,236,493,242" shape="poly">
+            </map>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Apartment</a></li>
+                <li><a href="bedroom.html">Bedroom 1</a></li>
+                <li><a href="bedroom.html">Bedroom 2</a></li>
+                <li><a href="kitchen.html">Kitchen</a></li>
+                <li><a href="dining.html">Dinning</a></li>
+                <li><a href="livingroom.html">Living Room</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="grid">
+            <div class="apt-survey">
+                <h2>Survey</h2>
+                <form method="post" action="https://csunix.mohawkcollege.ca/tooltime/showit.pl">
+                    <input type="hidden" name="formname" value="Sandy and Leslie's Apartment Survey" />
+                    <fieldset>
+                        <legend>How did you find out about this apartment? Check any that apply</legend>
+                        <div>
+                            <div>
+                                <input type="checkbox" id="web" name="survey" value="Web search" />
+                                <label for="web">Web Search</label>
+
+                            </div>
+                            <div>
+                                <input type="checkbox" id="friend" name="survey" value="Friend" />
+                                <label for="friend">Friend</label>
+                            </div>
+
+                            <div>
+                                <input type="checkbox" id="newsp" name="survey" value="News Paper" />
+                                <label for="newsp">Newspaper</label>
+                            </div>
+
+                        </div>
+
+                        <input type="submit" value="Submit" />
+                        <input type="reset" value="Reset Form" />
+                    </fieldset>
+                </form>
+            </div>
+            <div class="apt-welcome">
+                <h2>Welcome Address</h2>
+                
+                    <audio controls>
+                        <source src="media/apartment.mp3" type="audio/mp3">
+                        Your browser doesnt support the audio format
+                    </audio>
+                    <p><span>Transcript: </span> Hello, welcome to our apartment. You'll really enjoy living here. The rooms are spacious and the apartment building amenities are fantastic. We look forward to hearing from you.
+                </p>
+
+            </div>
+            <div class="apt-services">
+                <h2>Services</h2>
+                <table>
+                    <colgroup>
+                        <col class="col1" />
+                        <col class="col2" colspan="2" />
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th>Services</th>
+                            <th colspan="2">Days / Hours</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                        </tr>
+                        <tr>
+                            <td rowspan="2">Gym</td>
+                            <td colspan="2" rowspan="4">Monday - Friday: 8 am - 10 pm
+                                <br />Saturday: 8 am - 8 pm
+                                <br />Sunday: 8 am - 5 pm</td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                        <tr>
+                            <td>Pool</td>
+                        </tr>
+                        <tr>
+
+                        </tr>
+                        <tr>
+                            <td>Laundry</td>
+                            <td colspan="2">24/7</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Please do not allow people you do not know use any of the facilities</td>
+                            </tr>
+                        </tfoot>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="apt-location">
+                <h2>Location</h2>
+                <img src="images/location.png" alt="Sandy and Leslie Apartment Location" title="Sandy and Leslie Apartment Location"/>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-container">
+
+                <div class="gallery-item">
+                    <h3>Living Room</h3>
+                    <img src="images/livingroom_sm.jpg" alt="Living Room" title="Living Room" />
+                </div>
+
+                <div class="gallery-item">
+                    <h3>Kitchen</h3>
+                    <img src="images/kitchen_sm.jpg" alt="Kitchen" title="Kitchen" />
+                </div>
+
+                <div class="gallery-item">
+                    <h3>Balcony</h3>
+                    <img src="images/balcony_sm.jpg" alt="Balcony" title="Balcony" />
+                </div>
+
+                <div class="gallery-item">
+                    <h3>Diningroom</h3>
+                    <img src="images/diningroom_sm.jpg" alt="Dining Room" title="Dining Room" />
+                </div>
+
+                <div class="gallery-item">
+                    <h3>Bedroom</h3>
+                    <img src="images/bedroom_sm.jpg" alt="Bedroom" title="Bedroom" />
+                </div>
+
+                <div class="gallery-item">
+                    <h3>Bathroom</h3>
+                    <img src="images/bathroom_sm.jpg" alt="Bathroom" title="Bathroom" />
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            For more information, contact: <a href="mailto:apartment@example.com">apartment@example.com</a> or <a href="tel:(905)555-1234">(905)555-1234</a>
+        </p>
+        <p>
+            &copy;: Sandy and Leslie 2022
+        </p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+<head lang="en">
+    <!--Author: Ibrahim Ahmed, 000880591-->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy and Leslie's Apartment</title>
+    <link rel="stylesheet" href="apartment-layout.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="mobile.css" type="text/css" media="screen" />
+    <style>
+        .title {
+            text-align: center;
+            font-size: 30px;
+        }
+        .img-lg {
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+        table {
+            max-width: 550px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sandy and Leslie's Apartment</h1>
+        <div class="image-map">
+            <p class="header-text">
+                Click a room for a detailed view
+            </p>
+            <img src="images/apartmentfloorplan.jpg" alt="Apartment Floor Plan. Birdeye view" title="Apartment Floorplan" usemap="#image-map">
+
+            <map name="image-map">
+                <area shape="default" href="index.html" alt="Apartment" />
+                <area alt="Bedroom 1" title="Apartment Floorplan" href="bedroom.html" coords="176,268,32,111" shape="rect">
+                <area alt="Living Room" title="Living Room" href="livingroom.html" coords="197,115,337,283" shape="0">
+                <area alt="Kitchen" title="Kitchen" href="kitchen.html" coords="191,297,287,376" shape="0">
+                <area alt="Dining Room" title="Dining Room" href="dining.html" coords="345,341,49" shape="circle">
+                <area alt="Bedroom 2" title="Bedroom 2" href="bedroom.html" coords="495,307,577,310,571,240,561,105,388,100,403,236,493,242" shape="poly">
+            </map>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Apartment</a></li>
+                <li><a href="bedroom.html">Bedroom 1</a></li>
+                    <li><a href="bedroom.html">Bedroom 2</a></li>
+                    <li><a href="kitchen.html">Kitchen</a></li>
+                    <li><a href="dining.html">Dinning</a></li>
+                    <li><a href="livingroom.html">Living Room</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <h2 class="title">Dining Details</h2>
+            <img class="img-lg" src="images/diningroom.jpg" alt="Dining Ro" title="Dining Room" />
+
+            <h2>Apartment Services</h2>
+            <table>
+                <colgroup>
+                    <col class="col1" />
+                    <col class="col2" colspan="2" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th>Services</th>
+                        <th colspan="2">Days / Hours</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Gym</td>
+                        <td colspan="2" rowspan="4">Monday - Friday: 8 am - 10 pm
+                            <br />Saturday: 8 am - 8 pm
+                            <br />Sunday: 8 am - 5 pm</td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td>Pool</td>
+                    </tr>
+                    <tr>
+
+                    </tr>
+                    <tr>
+                        <td>Laundry</td>
+                        <td colspan="2">24/7</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Please do not allow people you do not know use any of the facilities</td>
+                        </tr>
+                    </tfoot>
+                </tbody>
+            </table>
+        </main>
+
+        <footer>
+            <p>
+                For more information, contact: <a href="mailto:apartment@example.com">apartment@example.com</a> or <a href="tel:(905)555-1234">(905)555-1234</a>
+            </p>
+            <p>
+                &copy; Sandy and Leslie 2022
+            </p>
+        </footer>
+
+    </body>
+</html>

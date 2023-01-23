@@ -1,0 +1,43 @@
+/*Author: Ibrahim Ahmed, 000880591*/
+@media only screen and (max-width: 600px) {
+    .image-map {
+        display: none;
+    }
+    
+    nav ul {
+        display: block;
+
+    }
+    nav ul li {
+        border: 0;
+        text-align: center;
+        margin-bottom: 0.3em;
+    }
+    nav ul li a{
+        display: inline-block;
+        width: 100px;
+        padding: 7px 10px;
+        color: #fff;
+        background: #333;
+        border-radius: 0.8em;
+    }
+
+    .grid {
+        padding: 1em;
+        display: grid;
+        gap: 0.7em;
+        grid-template-columns: none;
+    }
+    .apt-survey{
+        margin-top: 0;
+    }
+    .apt-location img {
+        
+        height: 330px;
+    }
+    .gallery-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5em;
+    }
+}

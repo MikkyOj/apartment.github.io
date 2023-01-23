@@ -1,0 +1,178 @@
+/*Author: Ibrahim Ahmed, 000880591*/
+body {
+    background: #f5f5f5;
+}
+
+header h1 {
+    text-align: center;
+    color: #000;
+    font-family: cursive;
+    text-shadow: -1px 3px 3px #F2FF89;
+}
+nav {
+    display: flex;
+    justify-content: center;
+
+}
+nav ul {
+    padding: 0;
+    display: flex;
+    gap: 0.7em;
+}
+nav ul li {
+    width: 100px;
+    list-style: none;
+    border-right: 1px solid black;
+    line-height: 1.3em;
+    text-align: center;
+}
+nav ul li:last-child {
+    border-right: 0;
+}
+nav ul li a {
+    font-family: Sans-Serif;
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #333;
+}
+.image-map {
+    display: block;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+nav ul li a:visited {
+    color: orangered;
+}
+.grid {
+    padding: 1em;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.apt-welcome audio {
+    display: block;
+    margin-bottom: 0.5em;
+    border-radius: 100vw;
+    box-shadow: 0 1px 5px #333;
+}
+.apt-survey{
+    margin-top: -3em;
+}
+p, label, legend {
+    font-family: Sans-Serif;
+    color: #333;
+    line-height: 1.2em;
+}
+h2 {
+    color: #111;
+    font-family: Courier;
+    line-height: 1.5em;
+    padding-left: 0.5em;
+    font-weight: 600;
+    border-bottom: 3px solid gold;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, tr, th {
+    border: 1px solid #555;
+    padding: 0.5em;
+    font-family: Sans-Serif;
+}
+th {
+    text-align: left;
+}
+thead tr {
+    background: #222;
+    color: #f5f5f5;
+}
+tfoot tr {
+    background: #ddeeff;
+}
+.col1 {
+    width: 10%;
+}
+.col2 {
+    width: 25%;
+}
+fieldset {
+    border: 0;
+}
+form section {
+    margin-bottom: 0.5em;
+}
+input[type="submit"], input[type="reset"] {
+    display: inline-block;
+    margin-top: 0.6em;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 0.7em;
+    background: #333;
+    box-shadow: 0 0 3px #0006;
+    border: 0;
+    outline: 0;
+}
+input[type="reset"] {
+
+    background: #10B8FF;
+}
+
+.apt-survey {
+    grid-row: 2;
+
+}
+
+.apt-welcome {
+    grid-column: 1;
+
+}
+.apt-location {
+    grid-row: span 2;
+}
+.apt-location img {
+    height: 500px;
+    width: 100%;
+}
+h3 {
+    padding-left: 0.5em;
+    color: #333;
+    font-family: Courier New;
+    font-weight: 600;
+    line-height: 1.5em;
+    border-bottom: 2px solid #aF9C00;
+}
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 0.5em;
+    gap: 0.5em;
+}
+.gallery-item {
+    padding: 0.3em;
+    width: 230px;
+    background: #f8f8f8;
+    border-radius: 0.3em;
+    box-shadow: 0 0 7px #555;
+}
+.gallery-item img {
+    width: 100%;
+}
+footer {
+    margin-top: 1em;
+    background: #FFC11D;
+    padding: 1em;
+}
+footer p {
+    font-family: Sans-Serif;
+    text-align: center;
+    color: #111;
+}
+footer a {
+    text-decoration: none;
+    color: orangered;
+    font-family: inherit;
+}
